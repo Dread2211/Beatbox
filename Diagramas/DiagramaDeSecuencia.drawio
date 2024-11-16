@@ -1,0 +1,173 @@
+<mxfile host="app.diagrams.net" modified="2024-06-21T18:02:51.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0 (Edition std-1)" etag="5EJ5GGP_ks-_klXs-DF9" version="24.6.1" type="google">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-78" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;u&gt;Diagrama de Secuencia&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="326" y="1200" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-103" value="&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;Usuario&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;s&amp;quot;,&amp;quot;v&amp;quot;:22.22222222222222,&amp;quot;e&amp;quot;:7}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Usuario&lt;/font&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="14" y="1320" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-104" value="Reproductor de música" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="194" y="1320" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-105" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hJuP_QBg6k8lRSLc--s0-104">
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-131" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hJuP_QBg6k8lRSLc--s0-104">
+          <mxGeometry x="45" y="250" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-106" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Seleccionar Playlist&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="hJuP_QBg6k8lRSLc--s0-103" target="hJuP_QBg6k8lRSLc--s0-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="69" y="1400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="154" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-108" value="&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;Usuario&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;s&amp;quot;,&amp;quot;v&amp;quot;:22.22222222222222,&amp;quot;e&amp;quot;:7}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Usuario&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="14" y="1680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-109" value="&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;Usuario&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;s&amp;quot;,&amp;quot;v&amp;quot;:22.22222222222222,&amp;quot;e&amp;quot;:7}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Reproductor de música&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="194" y="1680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-110" value="Playlist" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="379" y="1320" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-111" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hJuP_QBg6k8lRSLc--s0-110">
+          <mxGeometry x="45" y="105" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-112" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hJuP_QBg6k8lRSLc--s0-110">
+          <mxGeometry x="45" y="300" width="10" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-113" value="&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;Usuario&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;s&amp;quot;,&amp;quot;v&amp;quot;:22.22222222222222,&amp;quot;e&amp;quot;:7}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Playlist&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="379" y="1680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-114" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Obtener listado de canciones&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1425" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="340" y="1425" />
+            </Array>
+            <mxPoint x="425" y="1425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-115" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Mostrar canciones&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249" y="1489" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="348" y="1489" />
+            </Array>
+            <mxPoint x="424" y="1489" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-116" value="Musica" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="566" y="1321" width="100" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-117" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hJuP_QBg6k8lRSLc--s0-116">
+          <mxGeometry x="44" y="199" width="10" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-136" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hJuP_QBg6k8lRSLc--s0-116">
+          <mxGeometry x="44" y="319" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-118" value="&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;Usuario&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;s&amp;quot;,&amp;quot;v&amp;quot;:22.22222222222222,&amp;quot;e&amp;quot;:7}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Musica&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="566" y="1680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-119" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Solicitar canciones&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="1444" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="710" y="1444" />
+            </Array>
+            <mxPoint x="780" y="1444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-120" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Listado de canciones&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="hJuP_QBg6k8lRSLc--s0-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="1470.29" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="795" y="1470.29" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-121" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Reproducir canción&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="hJuP_QBg6k8lRSLc--s0-117">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="248.5" y="1520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="338.5" y="1520" />
+            </Array>
+            <mxPoint x="423.5" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-122" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Emitir música&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="hJuP_QBg6k8lRSLc--s0-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431" y="1540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="1540" />
+            </Array>
+            <mxPoint x="606" y="1540" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-126" value="Cambiar canción" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="67.5" y="1570" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="157.5" y="1570" />
+            </Array>
+            <mxPoint x="242.5" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-127" value="Base De Datos Musica" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="736" y="1321" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-128" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hJuP_QBg6k8lRSLc--s0-127">
+          <mxGeometry x="45" y="123.5" width="10" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-129" value="&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;Usuario&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;s&amp;quot;,&amp;quot;v&amp;quot;:22.22222222222222,&amp;quot;e&amp;quot;:7}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Base De Datos Musica&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="736" y="1681" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-133" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Detener música actual&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.25" y="1591" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="339.25" y="1591" />
+            </Array>
+            <mxPoint x="610" y="1591" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-134" value="Seleccionar siguiente canción" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="248.5" y="1620" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="338.5" y="1620" />
+            </Array>
+            <mxPoint x="423.5" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-135" value="Iniciar nueva canción" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="hJuP_QBg6k8lRSLc--s0-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="436" y="1640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="526" y="1640" />
+            </Array>
+            <mxPoint x="611" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJuP_QBg6k8lRSLc--s0-137" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Emitir nueva música&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66" y="1670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="533" y="1670" />
+            </Array>
+            <mxPoint x="609" y="1670" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
