@@ -1,0 +1,250 @@
+/* Estilos generales del cuerpo de la página */
+body {
+  background-color: black;
+}
+
+/* Icono del Usuario */
+.user-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Barra de navegación */
+.navbar {
+  height: 80px;
+  background-color: black !important;
+}
+.navbar-brand {
+  margin-left: 10px;
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-outline-custom {
+  color: #fae5a8;
+  background-color: black;
+  border-color: #fae5a8;
+}
+.btn-outline-custom:hover {
+  color: black;
+  background-color: #fae5a8;
+  border-color: #fae5a8;
+}
+.btn-outline-custom:active {
+  color: #fae5a8 !important;
+  background-color: black !important;
+  border-color: #fae5a8 !important;
+}
+
+/* Separador para dar espacio debajo de la barra de navegación */
+.separador {
+  height: 1px;
+  background-color: white;
+}
+
+.custom-card {
+  max-width: 540px; 
+  border: 2px solid white; 
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  transform-origin: center;
+  backface-visibility: hidden;
+}
+
+.custom-card:hover {
+  transform: scale(1.02);
+  background-color: #d5a6bd !important;
+}
+
+.custom-card .col {
+  border-right: 2px solid white;
+  width: 80px; height: 80px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.custom-card:hover img {
+  width: 40px !important;
+  height: 40px !important;
+  content: url('img/play.png');
+}
+
+/* Estilos para los botones fijos en la parte inferior */
+.btn-outline-custom1 {
+  color: black;
+  background-color: #fae5a8;
+  border-color: black; 
+}
+.btn-outline-custom1:hover {
+  color: #fae5a8;
+  background-color: black;
+  border-color: black;
+}
+.btn-outline-custom1:active {
+  color: #fae5a8 !important;
+  background-color: black !important;
+  border-color: #fae5a8 !important;
+}
+.botones .btn {
+  margin: 5px;
+  width: 100%;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* Estilos para los títulos */
+.titulo {
+  color: white;
+  margin: 25px 0;
+}
+
+/* Estilos para las tarjetas */
+.col .card {
+  background-color: #fae5a8;
+  border: none;
+  height: 250px;
+}
+.col .card-img-top {
+  max-width: 100%; 
+  height: 150px;
+}
+.col .card-body {
+  position: relative;
+  height: auto;
+  padding: 1rem;
+}
+.col .card-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Contenedor de tarjetas */
+.container {
+  margin-top: 100px !important;
+  margin-bottom: 40px;
+}
+
+/* Estililo del scrollbar*/
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+/* Estiliza la pista de la scrollbar */
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+  border-radius: 10px;
+}
+/* Estiliza el thumb de la scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #5b5b5b;
+  border-radius: 10px;
+  border: 2px solid #2c2c2c;
+}
+/* Estiliza el thumb cuando está en modo hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888888;
+}
+/* Estiliza el thumb cuando está en modo activo */
+::-webkit-scrollbar-thumb:active {
+  background: #b7b7b7
+}
+/* Estiliza el thumb de la scrollbar horizontal */
+::-webkit-scrollbar-thumb:horizontal {
+  background: #6c757d;
+}
+
+.modal-content{
+  color: white;
+  background-color: black;
+  border: 2px solid #333;
+}
+.btn-close{
+  background-color: red;
+}
+.btn-link {
+  color: #d5a6bd;
+}
+.btn-link:hover{
+  color: #d5a6bd;
+}
+.btn-link:active{
+  color: #d5a6bd !important;
+}
+#loginModal input{
+  border: 4px solid #b4a7d6;
+}
+#registerModal input{
+  border: 4px solid #ffb5d7;
+}
+.btn-outline-custom2 {
+  color: #d2d5da;
+  background-color: #343a40;
+  border-color: #d2d5da; 
+}
+.btn-outline-custom2:hover {
+  color: #343a40;
+  background-color: #d2d5da;
+  border-color: #d2d5da;
+}
+
+/* Posiciona el botón de tres puntos */
+.btn-img {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+}
+
+/* Estilos para el menú de opciones */
+.options-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1000;
+  min-width: 120px;
+}
+
+.options-menu button {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 5px 0;
+  text-align: left;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.options-menu button:hover {
+  background-color: #555;
+}
+
+.card-custom {
+  max-width: 540px; 
+  border: 2px solid white; 
+  text-decoration: none;
+}
+
+.card-custom:hover {
+  background-color: #b4a7d6 !important;
+}
+
+.card-custom .col {
+  border-right: 2px solid white;
+  width: 80px; height: 80px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
