@@ -1,0 +1,104 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    background-color: black;
+}
+
+/* Icono del Usuario */
+.user-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Barra de navegación */
+.navbar {
+    height: 80px;
+    background-color: black !important;
+}
+.navbar-brand {
+    margin-left: 10px;
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-outline-custom {
+    color: #fae5a8;
+    background-color: black;
+    border-color: #fae5a8;
+}
+.btn-outline-custom:hover {
+    color: black;
+    background-color: #fae5a8;
+    border-color: #fae5a8;
+}
+
+/* Separador para dar espacio debajo de la barra de navegación */
+.separador {
+    margin-top: 80px;
+    height: 1px;
+    background-color: white;
+}
+
+/* Contenedor de tarjetas */
+.container {
+    margin-top: 100px !important;
+    margin-bottom: 40px;
+}
+
+/* Estilos para los títulos */
+.titulo {
+    color: white;
+    margin: 25px 0;
+}
+ 
+/* Estilos para las tarjetas */
+.col .card {
+    background-color: #fae5a8;
+    border: none;
+    height: 250px;
+}
+.col .card-img-top {
+    max-width: 100%; 
+    height: 150px;
+}
+.col .card-body {
+    position: relative;
+    height: auto;
+    padding: 1rem;
+}
+.col .card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Estililo del scrollbar*/
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  /* Estiliza la pista de la scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #2c2c2c;
+    border-radius: 10px;
+  }
+  /* Estiliza el thumb de la scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #5b5b5b;
+    border-radius: 10px;
+    border: 2px solid #2c2c2c;
+  }
+  /* Estiliza el thumb cuando está en modo hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888888;
+  }
+  /* Estiliza el thumb cuando está en modo activo */
+  ::-webkit-scrollbar-thumb:active {
+    background: #b7b7b7
+  }
+  /* Estiliza el thumb de la scrollbar horizontal */
+  ::-webkit-scrollbar-thumb:horizontal {
+    background: #6c757d;
+  }

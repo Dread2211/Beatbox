@@ -1,0 +1,363 @@
+    * {
+    box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo de la página */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+/* Contendedor */
+.container{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    height: calc(100% - 80px); 
+    overflow: hidden;
+}
+
+.row.principal{
+    flex: 1; /*  ocupa todo el espacio vertical dentro de .container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* COLUMNA IZQUIERDA */ 
+#col-izquierda{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /*position: absolute;
+    float: left;
+    box-sizing: border-box;*/
+}
+
+/* COLUMNA DERECHA */ 
+#col-derecha{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* CARD IZQUIERDA (REPRODUCTOR)*/
+.card.izq{
+    background-color: rgba(255, 255, 255, 0); 
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 2px 0px, rgba(255, 255, 255, 0.15) 0px 5px 100px 2px;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    margin-bottom: 10px;
+}
+#audio-player{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    width: 90%;
+}
+.display-cancion-artista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
+}
+.display-cancion-artista.a{
+    color: inherit;
+    text-decoration: none;
+}
+#titulo-cancion:hover {
+    color: #d5a6bd;
+}
+a:link, a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+.btn.ctrl{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.btn.ctrl:hover{
+    color: #ffb5d7;
+}
+
+/* SLIDER VOLUMEN */
+.slidecontainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 10px;
+}
+.slider {
+    position: relative;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    width: 30%;
+    border-radius: 10px;
+    background: white;
+    outline: none;
+    opacity: 0.5;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.slider:hover {
+    opacity: 0.8;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: #ffb5d7;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#volume {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+/* BARRA DE PROGRESO */
+.progress{
+    --bs-progress-bg: #e9ecef73;
+    --bs-progress-bar-transition: width 0.2s ease;
+    margin: 5px;
+    height: 5px;
+    padding: 0;
+    width: 100%;
+    cursor: pointer;
+    flex-wrap: wrap;
+    overflow: visible;
+}
+.progress-bar{
+    background-color: #d5a6bd;
+    width: 0%;
+    position: relative;
+    overflow: visible;
+}
+.progress-bar:after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #ffb5d7;
+}
+
+/* CARD DERECHA */
+.card-body.der{
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 70vh;
+    background-color: rgba(255, 255, 255, 0.158); 
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 2px 0px, rgba(255, 255, 255, 0.15) 0px 5px 100px 2px;
+    overflow: hidden;
+}
+.btn.opciones{
+    border: none;
+    color: aliceblue;
+}
+.btn.opciones:hover{
+    color: #d5a6bd;
+}
+.separador{
+    background-color: aliceblue;
+    height: 1px;
+}
+
+
+/* MOSTRAR CONTENIDO CUADRO*/
+#mostrar-contenido{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: 100px;
+    max-height: 66vh;
+    overflow-y: auto;
+}
+
+#mostrar-contenido::-webkit-scrollbar {
+    display: none;
+}
+
+/* LISTA DE REPRODUCCION */
+.btn.song {
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
+
+.btn.song:hover {
+    color: #ffb5d7;
+}
+
+#playlist-songs{
+    display: flex;
+    flex-direction: column;
+    visibility: visible;
+    justify-content: start;
+    list-style: none;
+    color: white;
+    margin: 0;
+    width: calc(100% + 15px);
+    overflow-y: hidden;
+
+}
+
+#playlist-songs li {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc34;
+}
+
+.playlist-song {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: nowrap;
+}
+
+.playlist-song-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 20px;
+    padding: 5px 0px;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+
+.playlist-song-title,
+.playlist-song-artist,
+.playlist-song-duration {
+  flex: 1;
+  min-width: 0;
+}
+
+.playlist-song-title {
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+}
+
+.playlist-song-duration {
+    justify-content: right;
+}
+
+/* ELIMINAR CANCION */
+.playlist-song-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: left;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.btn.borrar{
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
+
+.btn.borrar:hover{
+    color: rgb(172, 0, 0);
+}
+
+
+/* LETRAS */
+#song-lyric {
+    justify-content: center;
+    text-align: left;
+    font-size: x-large;
+
+}
+
+
+@media (max-width: 1500px) {
+    .card.izq {
+        width: 15rem;
+    }
+
+    #me-gusta-icon, #agregar-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    .playlist-song-title,
+    .playlist-song-artist,
+    .playlist-song-duration {
+      flex: 1 1 100%;
+      min-width: 0;
+    }
+}
+
+
+
+
+/*
+
+ SPLITTER 
+.splitter{
+    float: left;
+    cursor: ew-resize;
+    width: 10px;
+    background-color: aliceblue;
+    flex-shrink: 0; /* No se reduce el tamaño del divisor 
+    z-index: 1; Asegura que esté sobre las columnas 
+}
+
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+#volume-icon {
+    color: white;
+}
+
+.tooltip {
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateX(-50%);
+    background-color: #303030;
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.icon-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+*/

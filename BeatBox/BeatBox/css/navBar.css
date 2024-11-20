@@ -1,0 +1,160 @@
+/* Icono del Usuario */
+.user-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Barra de navegación */
+.navbar {
+  height: 80px;
+  background-color: black !important;
+  display: flex;
+  overflow: visible;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-outline-custom {
+  color: #FFF2CC;
+  background-color: black;
+  border-color: #FFF2CC;
+}
+.btn-outline-custom:hover {
+  color: black;
+  background-color: #FFF2CC;
+  border-color: #FFF2CC;
+}
+
+/* Separador para dar espacio debajo de la barra de navegación */
+.separador.nav {
+  margin-top: 80px;
+  height: 1px;
+  background-color: white;
+}
+
+/* ----------- */
+
+  .custom-card {
+    max-width: 540px; 
+    border: 2px solid white; 
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform-origin: center;
+    backface-visibility: hidden;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.02);
+    background-color: #d5a6bd !important;
+  }
+  
+  .custom-card .col {
+    border-right: 2px solid white;
+    width: 80px; height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .custom-card:hover img {
+    width: 40px !important;
+    height: 40px !important;
+    content: url('NBimg/play.png');
+  }
+
+
+  /* ------------ */
+  .modal-content{
+    color: white;
+    background-color: black;
+    border: 2px solid #333;
+  }
+  .btn-close{
+    background-color: red;
+  }
+  .btn-link {
+    color: #d5a6bd;
+  }
+  .btn-link:hover{
+    color: #d5a6bd;
+  }
+  .btn-link:active{
+    color: #d5a6bd !important;
+  }
+  #loginModal input{
+    border: 4px solid #b4a7d6;
+  }
+  #registerModal input{
+    border: 4px solid #ffb5d7;
+  }
+  .btn-outline-custom2 {
+    color: #d2d5da;
+    background-color: #343a40;
+    border-color: #d2d5da; 
+  }
+  .btn-outline-custom2:hover {
+    color: #343a40;
+    background-color: #d2d5da;
+    border-color: #d2d5da;
+  }
+  
+  /* Posiciona el botón de tres puntos */
+  .btn-img {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+  }
+  
+  /* Estilos para el menú de opciones */
+  .options-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1000;
+    min-width: 120px;
+  }
+  
+  .options-menu button {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    text-align: left;
+    background: none;
+    border: none;
+    color: white;
+  }
+  
+  .options-menu button:hover {
+    background-color: #555;
+  }
+  
+  .card-custom {
+    max-width: 540px; 
+    border: 2px solid white; 
+    text-decoration: none;
+  }
+  
+  .card-custom:hover {
+    background-color: #b4a7d6 !important;
+  }
+  
+  .card-custom .col {
+    border-right: 2px solid white;
+    width: 80px; height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
